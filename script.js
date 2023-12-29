@@ -48,7 +48,7 @@ const displayWeatherData = (data) => {
 
         weatherDataElement.innerHTML = `
               <h3>${data.name}</h3>
-              <p>Temparature: ${Math.floor(data.main.temp - 273.15)}C</p>
+              <p>Temparature: ${Math.floor(data.main.temp - 273.15)}°C</p>
               <p>Humidity: ${data.main.humidity}%</p>
               <p>wind speed: ${data.wind.speed} m/s </p>
         `;
